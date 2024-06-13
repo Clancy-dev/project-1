@@ -34,24 +34,32 @@
     border-radius: 3px;
     padding: 0.5rem;
     display: flex;
-    background-color: blue;
+    background-color: white;
     gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
 
 }
 .logo{
-    width: 9vw;
-    height: 10vh;
-    background: url(logo.png);
-    background-size: cover;
+    width: 8rem;
+    height: 4rem;
+    background-color: orangered;
+    border-radius: 1px;
+    
 
 }
+.logo-image{
+    width: 100%;
+    height: 100%;
+}
+
 .other-header{
-    width: 88.6%;
-    height: 10vh;
+    width: 10rem;
+    height: 10rem;
     display: flex;
     align-items: center;
     justify-content: end;
-    color: white;
+    color: green;
     gap: 1rem;
     font-size: 220%;
 }
