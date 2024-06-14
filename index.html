@@ -5,9 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="app.js"></script>
 </head>
 <body>
+    <div class="preloader">
+
+        <div class="preloader-card">
+            <div class="top-preloader-card">
+                <img src="logox.jfif" alt="" class="preloader-image">
+
+            </div>
+            <div class="bottom-preloader-card">
+
+                    <div class="moving-line"></div> 
+                
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+
+
+
     <section class="section-one">
         <div class="left-section-one">
 
@@ -15,7 +39,7 @@
         <div class="right-section-one">
             <div class="header">
                 <div class="logo">
-                    <img src="logo.png" alt="" class="logo-image">
+                    <img src="logox.jfif" alt="" class="logo-image">
 
                 </div>
                 <div class="other-header">
@@ -51,9 +75,53 @@
                 </div>
                 <div class="big-card-two">
                     <div class="small-card-one">
+                        
+                        <div class="inner-small-one">
+                            <div class="top-inner-small-one">
+                                <i class='bx bx-money'></i>
+                                
+    
+                            </div>
+                            <div class="middle-inner-small-one">
+                                Total Withdraw
+    
+                            </div>
+                            <div class="bottom-inner-small-one">
+                                <div class="number">
+                                    0 ugx
+                                </div>
+    
+                            </div>
+                            
+                            
+                        </div>
+    
 
                     </div>
                     <div class="small-card-two">
+
+                        <div class="inner-small-one">
+                            <div class="top-inner-small-one">
+                                <i class='bx bxs-bank'></i>
+                                
+    
+                            </div>
+                            <div class="middle-inner-small-one">
+                                Total Deposit
+    
+                            </div>
+                            <div class="bottom-inner-small-one">
+                                <div class="number">
+                                    0 ugx
+                                </div>
+    
+                            </div>
+                            
+                            
+                        </div>
+    
+
+
 
                     </div>
 
@@ -61,18 +129,105 @@
                 <div class="big-card-three">
                     <div class="part-one">
                     <div class="small-card-three">
+
+                        <div class="inner-small-one">
+                            <div class="top-inner-small-one">
+                                <i class='bx bx-gift' ></i>
+                                
+    
+                            </div>
+                            <div class="middle-inner-small-one">
+                                Sign Up Bonus
+    
+                            </div>
+                            <div class="bottom-inner-small-one">
+                                <div class="number">
+                                    10000 ugx
+                                </div>
+    
+                            </div>
+                            
+                            
+                        </div>
+    
+
+
+
                         
                     </div>
                     <div class="small-card-four">
+
+                        <div class="inner-small-one">
+                            <div class="top-inner-small-one">
+                                <i class='bx bx-line-chart' ></i>
+                                
+    
+                            </div>
+                            <div class="middle-inner-small-one" id="interest">
+                                Interest Balance
+    
+                            </div>
+                            <div class="bottom-inner-small-one">
+                                <div class="number">
+                                    0 ugx
+                                </div>
+    
+                            </div>
+                            
+                            
+                        </div>
+
+                        
                         
                     </div>
                     </div>
                     <div class="part-two">
                     <div class="small-card-five">
+
+                        <div class="inner-small-one">
+                            <div class="top-inner-small-one">
+                                <i class='bx bx-trending-up' ></i>
+                                
+    
+                            </div>
+                            <div class="middle-inner-small-one" id="investment">
+                                Total Investment
+    
+                            </div>
+                            <div class="bottom-inner-small-one">
+                                <div class="number">
+                                    0 ugx
+                                </div>
+    
+                            </div>
+                            
+                            
+                        </div>
+
+                        
                         
                     </div>
                     <div class="small-card-six">
                         
+                        <div class="inner-small-one">
+                            <div class="top-inner-small-one">
+                                <i class='bx bx-network-chart' ></i>
+                                
+    
+                            </div>
+                            <div class="middle-inner-small-one" id="investment">
+                                Referral Earning
+    
+                            </div>
+                            <div class="bottom-inner-small-one">
+                                <div class="number">
+                                    0 ugx
+                                </div>
+    
+                            </div>
+                            
+                            
+                        </div>
                     </div>
                     </div>
 
@@ -85,17 +240,66 @@
             <div class="card-body2">
                 <div class="smaller-cards">
 
+                    <div class="top-smaller-cards" id="smaller-1">
+                        <i class='bx bxs-credit-card'></i>
+                     
+
+                    </div>
+                    <div class="bottom-smaller-cards">
+                        Deposit
+
+                    </div>
+
+
                 </div>
                 <div class="smaller-cards">
+                    <div class="top-smaller-cards" id="smaller-2">
+                        <i class='bx bxs-wallet' ></i>
+                     
+
+                    </div>
+                    <div class="bottom-smaller-cards">
+                        Deposit History
+
+                    </div>
                     
                 </div>
                 <div class="smaller-cards">
+                    <div class="top-smaller-cards" id="smaller-3">
+                        <i class='bx bxs-pie-chart-alt-2' ></i>
+                     
+
+                    </div>
+                    <div class="bottom-smaller-cards">
+                        Withdraw history
+
+                    </div>
                     
                 </div>
                 <div class="smaller-cards">
+                    <div class="top-smaller-cards" id="smaller-4">
+                        <i class='bx bxs-credit-card-front'></i>
+                     
+
+                    </div>
+                    <div class="bottom-smaller-cards">
+                        invest logs
+
+                    </div>
                     
                 </div>
                 <div class="smaller-cards">
+
+                    <div class="top-smaller-cards" id="smaller-5">
+                        <i class='bx bx-user-plus'></i>
+                     
+
+                    </div>
+                    <div class="bottom-smaller-cards">
+                        Referral logs
+
+
+                    </div>
                     
                 </div>
 
@@ -103,9 +307,7 @@
             
             </div>
 
-            <div class="referral">
-
-            </div>
+            
             
                 
         </div>
@@ -117,18 +319,75 @@
     <section class="section-two">
         <div class="smallest-cards">
 
+            <div class="top-smallest-cards" id="smallest-3">
+                
+                <i class='bx bxs-help-circle' ></i>
+             
+
+            </div>
+            <div class="bottom-smallest-cards">
+                Help
+
+
+            </div>
+
 
         </div>
         <div class="smallest-cards">
+
+            <div class="top-smallest-cards" id="smallest-3">
+                <i class='bx bxs-credit-card-front' ></i>
+             
+
+            </div>
+            <div class="bottom-smallest-cards">
+                Invest
+
+
+            </div>
             
         </div>
         <div class="smallest-cards">
+
+
+            <div class="top-smallest-cards" id="smallest-3">
+                <i class='bx bxs-home'></i>
+             
+
+            </div>
+            <div class="bottom-smallest-cards">
+                Home
+
+
+            </div>
             
         </div>
         <div class="smallest-cards">
+
+            <div class="top-smallest-cards" id="smallest-3">
+                <i class='bx bxs-pie-chart-alt-2'></i>
+             
+
+            </div>
+            <div class="bottom-smallest-cards">
+                Withdraw
+
+
+            </div>
             
         </div>
         <div class="smallest-cards">
+
+            <div class="top-smallest-cards" id="smallest-3">
+                <i class='bx bxs-hand'></i>
+             
+
+            </div>
+            <div class="bottom-smallest-cards">
+                loan
+
+
+            </div>
             
         </div>
 
