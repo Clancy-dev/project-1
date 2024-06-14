@@ -87,7 +87,6 @@
 .card-body{
     width: 100%;
     height: 83vh;
-    background-color: red;
     display: flex;
     gap: 0.5rem;
 }
@@ -99,20 +98,60 @@
 .big-card-one{
     width: 40%;
     height: 83vh ;
-    background-color: white;
+    background: linear-gradient(to left,yellow,red);
     border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
     
     
+}
+.inner-big-one{
+    width: 70%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.top-inner-big-one{
+    width: 100%;
+    height: 33%;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+    font-size: 250%;
+
+}
+#balance{
+    color: white;
+
+}
+.middle-inner-big-one{
+    width: 100%;
+    height: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 170%;
+}
+.bottom-inner-big-one{
+    width: 100%;
+    height: 33%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 170%;
 }
 @media (max-width:991px) {
     .big-card-one{
         width: 100%;
         height: 45vh ;
         background-color: white;
-           
+        
     }
     
 }
+
 
 .big-card-two{
     width: 40%;
@@ -415,6 +454,8 @@
     }
     
 }
+
+
 
 
 
